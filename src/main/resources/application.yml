@@ -1,0 +1,11 @@
+service:
+  params:
+    csv-file:
+      name: ${CSV_FILE_NAME:file.csv}
+      url: ${CSV_FILE_URL:.\src\main\resources\files\}
+    messages:
+      firstName: ${WELCOME_FIRST_NAME:Ваше имя:}
+      secondName: ${WELCOME_SECOND_NAME:Ваша фамилия:}
+      emptyFile: ${ERROR_FILE_EMPTY:Файл пустой!}
+      charset: ${CHARSET_WINDOWS:WINDOWS-1251}
+
